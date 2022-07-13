@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacenamiento con Local Storage</title>
+</head>
+<body>
+    <div id="result">
+        <script>
+            // Check browser support
+            if(typeof(Storage) !== "undefined"){
+                // Store
+                localStorage.setItem("lastname", "Buglione");
+                document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+            } else {
+                document.getElementById("result").innerHTML = "Story, your browser does not support Web Store...";
+            }
+        </script>
+    </div>
+</body>
+</html>

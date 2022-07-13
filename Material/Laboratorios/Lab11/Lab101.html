@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Canvas</title>
+</head>
+<body>
+        <canvas id="glCanvas" width="640" height="480"> </canvas>
+        <script>
+            function main(){
+                const canvas = document.querySelector("#glCanvas");
+                //Inicializar Contexto
+                const gl = canvas.getContext("webgl");
+                //Continuar solo si WebGl está disponible y funcionando
+                if(gl === null){
+                    alert("No se puede inicializar WebGl. Es posible que su navegador o máquina no lo admita");
+                    return;
+                }
+                //Establecer color blanco a negro, totalmento opaco
+                gl.clearColor(0.0, 0.0, 0.0, 1.0);
+                //Borrar el buffer de color con el color claro especificado
+                gl.clear(gl.COLOR_BUFFER_BIT);
+            }
+            window.onload = main;
+        </script>        
+</body>
+</html>
