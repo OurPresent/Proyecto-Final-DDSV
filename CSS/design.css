@@ -13,13 +13,17 @@
     font-style: italic;
 }
 
+.prin{
+    position: relative;
+    margin: 0;
+}
+
 .Presentación{
     position: absolute;
     top: 0;
-    font-size: 120px;
+    font-size: 110px;
     width: 100%;
     margin-top: 40px;
-    padding: 100px;
 }
 
 .pres{
@@ -34,7 +38,6 @@
     font-size: 80px;
     width: 100%;
     margin-top: 200px;
-    padding: 100px;
 }
 
 .profesor{
@@ -43,7 +46,6 @@
     font-size: 80px;
     width: 100%;
     margin-top: 300px;
-    padding: 100px;
 }
 
 .nombre{
@@ -52,7 +54,6 @@
     font-size: 80px;
     width: 100%;
     margin-top: 400px;
-    padding: 100px;
 }
 
 .material{
@@ -60,8 +61,7 @@
     top: 0;
     font-size: 80px;
     width: 100%;
-    margin-top: 600px;
-    padding: 100px;
+    margin-top: 500px;
 }
 
 /*.galeria{
@@ -158,7 +158,6 @@ canvas {
     color: #222;
     padding: 2px;
     border: 1px solid #aaa;
-
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
@@ -169,7 +168,6 @@ canvas {
     color: #666;
     padding: 8px, 14px;
     border: 1px solid #888;
-
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -364,3 +362,19 @@ div.swapnil:hover div.estrella img{
     align-items: center;
 }*/
 
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 20px;
+		bottom: 5px;
+		right: 5px;
+	}
+}
+
+/*img .btn-up{
+    position: block;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}*/
