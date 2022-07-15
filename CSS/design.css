@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans:wght@600&family=PT+Sans:wght@700&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans:wght@600&family=Nunito&family=PT+Sans:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans:wght@600&family=Koulen&family=Nunito&family=PT+Sans:wght@700&family=Roboto:wght@700&display=swap');
 
 *, *::before, *::after{
     box-sizing: border-box;
@@ -18,24 +19,24 @@
     margin: 0;
 }
 
-.Presentación{
-    position: absolute;
-    top: 0;
-    font-size: 110px;
-    width: 100%;
-    margin-top: 40px;
-}
-
 .pres{
     height: 100%; 
     width: 100%;
     filter: opacity(.5);
 }
 
-.tema{
+.Presentación{
     position: absolute;
     top: 0;
     font-size: 80px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tema{
+    position: absolute;
+    top: 0;
+    font-size: 60px;
     width: 100%;
     margin-top: 200px;
 }
@@ -43,7 +44,7 @@
 .profesor{
     position: absolute;
     top: 0;
-    font-size: 80px;
+    font-size: 60px;
     width: 100%;
     margin-top: 300px;
 }
@@ -51,7 +52,7 @@
 .nombre{
     position: absolute;
     top: 0;
-    font-size: 80px;
+    font-size: 60px;
     width: 100%;
     margin-top: 400px;
 }
@@ -59,7 +60,7 @@
 .material{
     position: absolute;
     top: 0;
-    font-size: 80px;
+    font-size: 60px;
     width: 100%;
     margin-top: 500px;
 }
@@ -151,6 +152,10 @@ canvas {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+
+input{
+    margin-right: 5px;
 }
 
 .lab12 {
@@ -370,6 +375,52 @@ div.swapnil:hover div.estrella img{
 		right: 5px;
 	}
 }
+
+/*@media only screen and (min-width: 1600) {
+
+    .Presentación{
+        font-size: 90px;
+    }
+    
+    .tema{
+        font-size: 60px;
+    }
+
+    .profesor{
+        font-size: 60px;
+    }
+
+    .nombre{
+        font-size: 60px;
+    }
+
+    .material{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 1250) {
+
+    .Presentación{
+        font-size: 70px;
+    }
+    
+    .tema{
+        font-size: 40px;
+    }
+
+    .profesor{
+        font-size: 40px;
+    }
+
+    .nombre{
+        font-size: 40px;
+    }
+
+    .material{
+        font-size: 40px;
+    }
+}*/
 
 /*img .btn-up{
     position: block;
